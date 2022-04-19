@@ -8,5 +8,5 @@ struct Color {
     static let buttonAnswer = UIColor(red: 242 / 255, green: 163 / 255, blue: 60 / 255, alpha: 1)
     static let buttonColorAC = UIColor(red: 165 / 255, green: 165 / 255, blue: 165 / 255, alpha: 1)
     static let title = UIColor.white
-
+    static let titleAc = UIColor.black
 }
