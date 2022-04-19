@@ -104,15 +104,6 @@ extension ViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         switch calculators[indexPath.item] {
-//        case .equalMath :
-//            print("tinh toan")
-//        case .AC:
-//            print("xoa ")
-//        case .divisionPercent:
-//            print("tinh phan tram")
-//        case .addition ,.division, .multiplication , .subtraction :
-//            print(calculator[indexPath.item].rawValue)
-//        case
         case .swapNum:
             if operatorCalulator.isEmpty {
                 if !numFirst.isEmpty {
